@@ -1,0 +1,755 @@
+{
+  "version": 1,
+  "descripcion": "Banco de canciones de referencia. Cada fragmento empieza en la primera nota del salto. Ver docs/contrato_datos.md",
+  "aviso": "Banco completo el 03/08/2026, al cerrar la Fase 5, y con 28 entradas desde el 07/08/2026: las 28 escuchadas al piano. Cubre 18 de los 24 pares en la edición publicable y 21 en la de aula; el resto se resuelve por técnica desde la nota didáctica de su nivel. Ninguna entrada vale hasta escucharla, y eso lo pone marcar_verificadas.py.",
+  "licencias": {
+    "dominio_publico": {
+      "publicable": true,
+      "nombre": "Dominio público"
+    },
+    "tradicional": {
+      "publicable": true,
+      "nombre": "Tradicional, sin autor conocido"
+    },
+    "libre": {
+      "publicable": true,
+      "nombre": "Con licencia libre"
+    },
+    "protegida": {
+      "publicable": false,
+      "nombre": "Con derechos vigentes"
+    },
+    "por_verificar": {
+      "publicable": false,
+      "nombre": "Sin comprobar"
+    }
+  },
+  "canciones": [
+    {
+      "id": "cumpleanos-feliz",
+      "titulo": "Cumpleaños feliz",
+      "autor": null,
+      "fragmento": "Comienzo",
+      "intervalo": "2M",
+      "direccion": "asc",
+      "notas": [
+        67,
+        69,
+        67,
+        72,
+        71
+      ],
+      "duraciones": [
+        0.25,
+        1,
+        1,
+        1,
+        2
+      ],
+      "silabas": [
+        "ple",
+        "a",
+        "ños",
+        "fe",
+        "liz"
+      ],
+      "entradilla": {
+        "notas": [
+          67
+        ],
+        "duraciones": [
+          0.75
+        ],
+        "silabas": [
+          "Cum"
+        ]
+      },
+      "tempo": 100,
+      "licencia": "tradicional",
+      "nota_licencia": "Melodía de Good Morning to All, Mildred J. Hill (m. 1916): libre en España desde 1997. La letra inglesa, cuya autoría no se pudo probar, es dominio público en EE. UU. desde 1949 (sentencia de 2016), y por comparación de plazos (art. 163 TRLPI) España no puede protegerla más. La letra española es adaptación anónima. Cuenta hecha el 01/08/2026.",
+      "verificada": true
+    },
+    {
+      "id": "cumpleanos-feliz-octava",
+      "titulo": "Cumpleaños feliz",
+      "autor": null,
+      "fragmento": "Tercera frase, el salto a la tónica aguda",
+      "intervalo": "8J",
+      "direccion": "asc",
+      "notas": [
+        67,
+        79,
+        76,
+        72,
+        71,
+        69
+      ],
+      "duraciones": [
+        0.25,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "silabas": [
+        "de",
+        "se",
+        "a",
+        "mos",
+        "to",
+        "dos"
+      ],
+      "entradilla": {
+        "notas": [
+          67
+        ],
+        "duraciones": [
+          0.75
+        ],
+        "silabas": [
+          "Te"
+        ]
+      },
+      "tempo": 100,
+      "licencia": "tradicional",
+      "nota_licencia": "Misma canción que cumpleanos-feliz, otro fragmento. Ver allí la cuenta.",
+      "verificada": true
+    },
+    {
+      "id": "himno-alegria",
+      "titulo": "Himno de la alegría",
+      "autor": "Ludwig van Beethoven",
+      "fragmento": "Comienzo del tema, tético",
+      "intervalo": "2m",
+      "direccion": "asc",
+      "notas": [
+        64,
+        65,
+        67,
+        67,
+        65,
+        64,
+        62
+      ],
+      "duraciones": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "silabas": null,
+      "entradilla": null,
+      "tempo": 108,
+      "licencia": "dominio_publico",
+      "nota_licencia": "Beethoven, 1827. Dominio público.",
+      "verificada": true
+    },
+    {
+      "id": "para-elisa",
+      "titulo": "Para Elisa",
+      "autor": "Ludwig van Beethoven",
+      "fragmento": "Comienzo",
+      "intervalo": "2m",
+      "direccion": "desc",
+      "notas": [
+        76,
+        75,
+        76,
+        75,
+        76,
+        71,
+        74,
+        72,
+        69
+      ],
+      "duraciones": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        1.5
+      ],
+      "silabas": null,
+      "entradilla": null,
+      "tempo": 144,
+      "licencia": "dominio_publico",
+      "nota_licencia": "Beethoven, 1827. Dominio público.",
+      "verificada": true
+    },
+    {
+      "id": "marcha-nupcial",
+      "titulo": "Marcha nupcial",
+      "autor": "Richard Wagner",
+      "fragmento": "Comienzo, anacrusa y primer compás",
+      "intervalo": "4J",
+      "direccion": "asc",
+      "notas": [
+        60,
+        65,
+        65,
+        65
+      ],
+      "duraciones": [
+        1,
+        0.75,
+        0.25,
+        2
+      ],
+      "silabas": null,
+      "entradilla": null,
+      "tempo": 92,
+      "licencia": "dominio_publico",
+      "nota_licencia": "Wagner, 1883. Dominio público.",
+      "verificada": true
+    },
+    {
+      "id": "mary-corderito",
+      "titulo": "Mary tenía un corderito",
+      "autor": null,
+      "fragmento": "Comienzo. Sin letra: no hay versión española asentada",
+      "intervalo": "2M",
+      "direccion": "desc",
+      "notas": [
+        64,
+        62,
+        60,
+        62,
+        64,
+        64,
+        64
+      ],
+      "duraciones": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "silabas": null,
+      "entradilla": null,
+      "tempo": 110,
+      "licencia": "dominio_publico",
+      "nota_licencia": "Letra de Sarah Josepha Hale (m. 1879) y melodía atribuida a Lowell Mason (m. 1872), publicada en 1830. Dominio público en España por los dos desde mediados del siglo XX. Cuenta hecha el 02/08/2026.",
+      "verificada": true
+    },
+    {
+      "id": "mozart-29",
+      "titulo": "Sinfonía n.º 29 en la mayor, K. 201",
+      "autor": "Wolfgang Amadeus Mozart",
+      "fragmento": "Comienzo del primer movimiento. El silencio de corchea del primer compás va sumado a la segunda nota",
+      "intervalo": "8J",
+      "direccion": "desc",
+      "notas": [
+        81,
+        69,
+        81,
+        81,
+        81,
+        80,
+        81,
+        81,
+        81,
+        80,
+        81,
+        81,
+        81
+      ],
+      "duraciones": [
+        1,
+        1.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "silabas": null,
+      "entradilla": null,
+      "tempo": 152,
+      "licencia": "dominio_publico",
+      "nota_licencia": "Mozart, 1791. Dominio público.",
+      "verificada": true
+    },
+    {
+      "id": "the-entertainer-asc",
+      "titulo": "The Entertainer",
+      "autor": "Scott Joplin",
+      "fragmento": "Comienzo de la sección A, tras la introducción. La entradilla es la anacrusa cromática re–re♯. La última nota está ligada por encima de la barra de compás y suma 1,5 pulsos",
+      "intervalo": "6m",
+      "direccion": "asc",
+      "notas": [
+        64,
+        72,
+        64,
+        72,
+        64,
+        72
+      ],
+      "duraciones": [
+        0.25,
+        0.5,
+        0.25,
+        0.5,
+        0.25,
+        1.5
+      ],
+      "silabas": null,
+      "entradilla": {
+        "notas": [
+          62,
+          63
+        ],
+        "duraciones": [
+          0.25,
+          0.25
+        ],
+        "silabas": null
+      },
+      "tempo": 75,
+      "licencia": "dominio_publico",
+      "nota_licencia": "Scott Joplin (m. 1 de abril de 1917). Por la disposición transitoria cuarta del TRLPI le corresponden 80 años contados desde el 1 de enero de 1918: dominio público en España desde el 1 de enero de 1998. Es obra instrumental, sin letrista, así que la regla del último superviviente (art. 28.1) no se aplica. Y la comparación de plazos (art. 163) tampoco alarga: publicada en 1902, es dominio público en Estados Unidos. Sale libre por los dos caminos. Cuenta hecha el 02/08/2026.",
+      "verificada": true
+    },
+    {
+      "id": "the-entertainer-desc",
+      "titulo": "The Entertainer",
+      "autor": "Scott Joplin",
+      "fragmento": "El mismo comienzo de la sección A, una nota más adelante: el salto de vuelta. La entradilla llega hasta el primer mi. La última nota está ligada por encima de la barra de compás y suma 1,5 pulsos",
+      "intervalo": "6m",
+      "direccion": "desc",
+      "notas": [
+        72,
+        64,
+        72,
+        64,
+        72
+      ],
+      "duraciones": [
+        0.5,
+        0.25,
+        0.5,
+        0.25,
+        1.5
+      ],
+      "silabas": null,
+      "entradilla": {
+        "notas": [
+          62,
+          63,
+          64
+        ],
+        "duraciones": [
+          0.25,
+          0.25,
+          0.25
+        ],
+        "silabas": null
+      },
+      "tempo": 75,
+      "licencia": "dominio_publico",
+      "nota_licencia": "Misma obra que the-entertainer-asc, otro fragmento. Ver allí la cuenta.",
+      "verificada": true
+    },
+    {
+      "id": "el-dia-que-me-quieras",
+      "titulo": "El día que me quieras",
+      "autor": "Carlos Gardel y Alfredo Le Pera",
+      "fragmento": "Comienzo del estribillo, en la mayor. El salto cae entre «El» y «dí-», así que notas[0] es la primera nota que se canta y no hay entradilla. El ritmo lo dictó el profesor de oído el 02/08/2026: las dos fuentes escritas cuadraban entre sí y las dos comprimían «dí-a» en dos semicorcheas. Aviso: el compás suma 3,5 porque el medio pulso que falta es la anacrusa del verso siguiente",
+      "intervalo": "6M",
+      "direccion": "asc",
+      "notas": [
+        64,
+        73,
+        73,
+        73,
+        71,
+        74,
+        73
+      ],
+      "duraciones": [
+        0.5,
+        0.5,
+        1,
+        0.25,
+        0.25,
+        0.5,
+        1
+      ],
+      "silabas": [
+        "El",
+        "dí",
+        "a",
+        "que",
+        "me",
+        "quie",
+        "ras"
+      ],
+      "entradilla": null,
+      "tempo": 75,
+      "licencia": "dominio_publico",
+      "nota_licencia": "Carlos Gardel y Alfredo Le Pera murieron el mismo día, el 24 de junio de 1935, en el accidente aéreo de Medellín. La regla del último superviviente (art. 28.1 TRLPI) no cambia nada porque para los dos es 1935. Por la disposición transitoria cuarta, 80 años desde el 1 de enero de 1936: dominio público en España desde el 1 de enero de 2016. La comparación de plazos (art. 163) tampoco alarga: en Argentina, con vida más 70, es libre desde 2006. Sale libre por los dos caminos. Cuenta hecha el 01/08/2026.",
+      "verificada": true
+    },
+    {
+      "id": "brahms-cuna",
+      "titulo": "Canción de cuna",
+      "autor": "Johannes Brahms",
+      "fragmento": "Comienzo, «Gu-ten A-bend, gut' Nacht». El salto cae entre la segunda y la tercera nota, así que la entradilla es la primera sílaba. Alturas y ritmo del ejemplo en LilyPond del artículo de la Wikipedia. Aviso: la última nota suma el silencio de negra que la sigue",
+      "intervalo": "3m",
+      "direccion": "asc",
+      "notas": [
+        67,
+        70,
+        67,
+        67,
+        70
+      ],
+      "duraciones": [
+        0.5,
+        1.5,
+        0.5,
+        1,
+        2
+      ],
+      "silabas": null,
+      "entradilla": {
+        "notas": [
+          67
+        ],
+        "duraciones": [
+          0.5
+        ],
+        "silabas": null
+      },
+      "tempo": 76,
+      "licencia": "dominio_publico",
+      "nota_licencia": "Johannes Brahms murió el 3 de abril de 1897: por la disposición transitoria cuarta del TRLPI (80 años) es dominio público en España desde el 1 de enero de 1978. El texto viene de Des Knaben Wunderhorn, tradicional. Cuenta hecha el 02/08/2026.",
+      "verificada": true
+    },
+    {
+      "id": "don-gato",
+      "titulo": "Estaba el señor don Gato",
+      "autor": null,
+      "fragmento": "Comienzo. Las dos primeras notas son el salto y no hay entradilla. Alturas y ritmo del MIDI de Mama Lisa's World, que coincide con los nombres de nota que publica tocapartituras.com una cuarta más abajo (sol-mi-sol-mi-sol-mi-re-do)",
+      "intervalo": "3m",
+      "direccion": "desc",
+      "notas": [
+        69,
+        66,
+        69,
+        66,
+        69,
+        66,
+        64,
+        62
+      ],
+      "duraciones": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        1.5,
+        0.5,
+        2,
+        2
+      ],
+      "silabas": [
+        "Es",
+        "ta",
+        "ba'el",
+        "se",
+        "ñor",
+        "don",
+        "Ga",
+        "to"
+      ],
+      "entradilla": null,
+      "tempo": 100,
+      "licencia": "tradicional",
+      "nota_licencia": "Romance infantil español de tradición oral, sin autor conocido. Cuenta hecha el 02/08/2026.",
+      "verificada": true
+    },
+    {
+      "id": "beethoven-5",
+      "titulo": "5.ª Sinfonía en do menor, op. 67",
+      "autor": "Ludwig van Beethoven",
+      "fragmento": "El motivo de apertura. El salto está entre la tercera y la cuarta nota, así que la entradilla son las dos primeras. Alturas y ritmo del ejemplo en LilyPond del artículo de la Wikipedia. Aviso: las dos notas largas llevan calderón, y 3 y 4 pulsos son una lectura y no una duración escrita; el silencio de corchea que separa las dos frases va sumado a la nota anterior. El tempo se bajó de 200 a 140 al oírlo el 02/08/2026: la partitura marca blanca = 108, o sea negra = 216, y a esa velocidad el motivo no se reconoce con una muestra de piano decayendo",
+      "intervalo": "3M",
+      "direccion": "desc",
+      "notas": [
+        67,
+        63,
+        65,
+        65,
+        65,
+        62
+      ],
+      "duraciones": [
+        0.5,
+        3,
+        0.5,
+        0.5,
+        0.5,
+        4
+      ],
+      "silabas": null,
+      "entradilla": {
+        "notas": [
+          67,
+          67
+        ],
+        "duraciones": [
+          0.5,
+          0.5
+        ],
+        "silabas": null
+      },
+      "tempo": 140,
+      "licencia": "dominio_publico",
+      "nota_licencia": "Ludwig van Beethoven murió en 1827: dominio público en cualquier cómputo. Cuenta hecha el 02/08/2026.",
+      "verificada": true
+    },
+    {
+      "id": "gaudeamus-igitur",
+      "titulo": "Gaudeamus igitur",
+      "autor": null,
+      "fragmento": "Comienzo. Las dos primeras notas son el salto, «Gau» y «de», así que no hay entradilla. Alturas y ritmo del ejemplo en LilyPond del artículo de la Wikipedia, que reproduce la impresión de Leipzig de 1782",
+      "intervalo": "4J",
+      "direccion": "desc",
+      "notas": [
+        70,
+        65,
+        65,
+        70,
+        67,
+        67,
+        67
+      ],
+      "duraciones": [
+        0.75,
+        0.25,
+        1,
+        1,
+        0.75,
+        0.25,
+        2
+      ],
+      "silabas": [
+        "Gau",
+        "de",
+        "a",
+        "mus",
+        "i",
+        "gi",
+        "tur"
+      ],
+      "entradilla": null,
+      "tempo": 90,
+      "licencia": "tradicional",
+      "nota_licencia": "Canción académica europea. La melodía se imprime por primera vez en 1782 sin autor conocido y la letra latina se documenta desde el siglo XIII. Cuenta hecha el 02/08/2026.",
+      "verificada": true
+    },
+    {
+      "id": "campanita-lugar",
+      "titulo": "Campanita del lugar",
+      "autor": null,
+      "fragmento": "Comienzo. El salto cae entre «pa» y «ni», así que la entradilla es la primera sílaba. Es la melodía de «Ah! vous dirai-je, maman», la misma de «Estrellita, ¿dónde estás?». Alturas y ritmo del MIDI de 8notes",
+      "intervalo": "5J",
+      "direccion": "asc",
+      "notas": [
+        60,
+        67,
+        67,
+        69,
+        69,
+        67
+      ],
+      "duraciones": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "silabas": [
+        "pa",
+        "ni",
+        "ta",
+        "del",
+        "lu",
+        "gar"
+      ],
+      "entradilla": {
+        "notas": [
+          60
+        ],
+        "duraciones": [
+          1
+        ],
+        "silabas": [
+          "Cam"
+        ]
+      },
+      "tempo": 100,
+      "licencia": "tradicional",
+      "nota_licencia": "«Ah! vous dirai-je, maman», anónima francesa del siglo XVIII; la letra española es igualmente anónima. Cuenta hecha el 01/08/2026, al estudiarla para la 2M descendente.",
+      "verificada": true
+    },
+    {
+      "id": "lago-de-los-cisnes",
+      "titulo": "El lago de los cisnes, op. 20",
+      "autor": "Piotr Ilich Chaikovski",
+      "fragmento": "El tema del cisne. Las dos primeras notas son el salto: el fa sostenido largo cae a la tónica y la melodía vuelve a subir por grados hasta él. Alturas del MIDI del arreglo para oboe de 8notes, con el ritmo cuantizado. Alargado a ocho notas el 02/08/2026, que es donde el tema empieza a balancearse entre el re y el fa sostenido: con seis se quedaba en la subida y no llegaba a sonar a la canción",
+      "intervalo": "5J",
+      "direccion": "desc",
+      "notas": [
+        78,
+        71,
+        73,
+        74,
+        76,
+        78,
+        74,
+        78
+      ],
+      "duraciones": [
+        2,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        1.5,
+        0.5,
+        1.5
+      ],
+      "silabas": null,
+      "entradilla": null,
+      "tempo": 80,
+      "licencia": "dominio_publico",
+      "nota_licencia": "Piotr Ilich Chaikovski murió en 1893: dominio público en España desde el 1 de enero de 1974 por la regla de los 80 años. Cuenta hecha el 02/08/2026.",
+      "verificada": true
+    },
+    {
+      "id": "nobody-knows",
+      "titulo": "Nobody Knows the Trouble I've Seen",
+      "autor": null,
+      "fragmento": "La frase que empieza «Nobody knows», donde la melodía cae de si a re. Las dos primeras notas son el salto. Alturas y ritmo del MIDI de 8notes. Alargado a nueve notas el 02/08/2026 para que la frase acabe donde acaba la letra, y con la letra puesta: nueve notas para nueve sílabas, con las cuatro últimas repitiendo el si. Va en inglés porque es el texto de la canción y no hay versión española asentada; es el caso contrario al de Mary, donde la letra habría habido que inventarla",
+      "intervalo": "6M",
+      "direccion": "desc",
+      "notas": [
+        71,
+        62,
+        64,
+        67,
+        69,
+        71,
+        71,
+        71,
+        71
+      ],
+      "duraciones": [
+        0.5,
+        1,
+        0.5,
+        1,
+        1,
+        0.5,
+        0.5,
+        1,
+        2
+      ],
+      "silabas": [
+        "No",
+        "bo",
+        "dy",
+        "knows",
+        "the",
+        "trou",
+        "ble",
+        "I've",
+        "seen"
+      ],
+      "entradilla": null,
+      "tempo": 100,
+      "licencia": "tradicional",
+      "nota_licencia": "Espiritual afroamericano de tradición oral, publicado en 1867 en Slave Songs of the United States, sin autor conocido. Cuenta hecha el 02/08/2026.",
+      "verificada": true
+    },
+    {
+      "id": "quinto-levanta",
+      "titulo": "Quinto levanta",
+      "autor": null,
+      "fragmento": "Comienzo. El salto cae entre «to» y «le», así que la entradilla es la primera sílaba. Melodía dictada por el profesor el 02/08/2026, porque ninguna fuente legible la escribe. Aviso: es un toque de corneta y solo usa los armónicos —sol, do y mi—, así que el sol de «man-ta» va por debajo del do y no encima",
+      "intervalo": "3M",
+      "direccion": "asc",
+      "notas": [
+        60,
+        64,
+        60,
+        60,
+        64,
+        60,
+        64,
+        60,
+        55,
+        55
+      ],
+      "duraciones": [
+        0.5,
+        0.5,
+        1,
+        1,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        1,
+        1
+      ],
+      "silabas": [
+        "to",
+        "le",
+        "van",
+        "ta",
+        "ti",
+        "ra",
+        "de",
+        "la",
+        "man",
+        "ta"
+      ],
+      "entradilla": {
+        "notas": [
+          60
+        ],
+        "duraciones": [
+          1
+        ],
+        "silabas": [
+          "quin"
+        ]
+      },
+      "tempo": 108,
+      "licencia": "tradicional",
+      "nota_licencia": "Toque de diana del repertorio militar español, de tradición oral y sin autor conocido. Se cita en el preludio de la zarzuela La chula de Pontevedra (Pablo Luna, m. 1942), que no es la fuente de esta transcripción: aquí se guarda el toque, no el arreglo. Cuenta hecha el 02/08/2026.",
+      "verificada": true
+    }
+  ]
+}

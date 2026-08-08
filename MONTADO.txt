@@ -1,0 +1,4 @@
+Montado por herramientas/montar_publicable.py el 2026-08-08.
+Version: eccec89
+Edicion: publicable. Juego: intervalos. 18 canciones de 28, 18 pares de 24 con referencia.
+Es un producto de construccion: no se edita a mano, se vuelve a montar.
