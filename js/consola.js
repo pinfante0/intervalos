@@ -4,7 +4,7 @@
 // que el proyecto era «una consola con varios juegos dentro», y de eso salía una
 // pantalla de inicio que enseñaba una lista de juegos. Ya no: **cada juego se
 // reparte por su cuenta, con su enlace y su portada**, porque uno puede acabar
-// en una asignatura y otro en otra, y a quien recibe Intervalos una lista con
+// en una asignatura y otro en otra, y a quien recibe Intervalia una lista con
 // dos juegos que no puede abrir no le dice nada. Lo que se comparte es el
 // código —el motor de rondas, el piano, el progreso, el estilo, estas
 // pantallas—, y eso no tiene por qué verse desde fuera.
@@ -31,7 +31,7 @@ import { pantallaResultados, pantallaDetalle } from './pantallas/resultados.js';
 /**
  * El juego que lleva esta compilación. Uno, y por eso no es una lista.
  *
- * Aquí había un array de tres —Intervalos y los dos que aún no existen, apagados
+ * Aquí había un array de tres —Intervalia y los dos que aún no existen, apagados
  * y con su descripción—, entre dos marcas de comentario para que
  * `montar_publicable.py --juego` pudiera cortar ahí y producir una compilación
  * que no los nombrase. Toda esa maquinaria existía para esconder un menú, y el

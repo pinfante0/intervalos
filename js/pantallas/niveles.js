@@ -84,7 +84,7 @@ export function pantallaModos(consola, { params }) {
   // donde un nivel significa algo: en una pantalla que solo sirve para elegir
   // cómo jugar, una tabla de aciertos es una parada que nadie ha pedido.
   // El enlace de atrás nombra **adónde se va**, no de dónde se viene, que es lo
-  // que hace ya «‹ Modos». Decía «‹ Intervalos» —el nombre del juego— y eso
+  // que hace ya «‹ Modos». Decía «‹ Intervalia» —el nombre del juego— y eso
   // informaba de lo único que el que está aquí ya sabe: en qué juego está.
   // Adónde lleva es a la portada, o sea al inicio. Corregido el 07/08/2026,
   // jugándolo en PLATEA.
@@ -322,7 +322,7 @@ export function pantallaPreparar(consola, { params, consulta, ir }) {
   // Cuántos hay que marcar lo pone **el juego**, no esta pantalla. Hasta el
   // 03/08/2026 esto era un `import` de `js/juegos/intervalos/juego.js`: una
   // pantalla compartida colgando de un juego concreto, que además habría
-  // reventado cualquier compilación que no llevara Intervalos dentro.
+  // reventado cualquier compilación que no llevara Intervalia dentro.
   const minimo = juego.minimoElegidos ?? 1;
 
   // **Se entra sin nada elegido.** Traía 3m y 3M puestas, y una elección que

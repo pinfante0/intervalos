@@ -1,4 +1,4 @@
-// Juego 1 — Intervalos. El módulo que la consola enchufa en su motor de rondas.
+// Juego 1 — Intervalia. El módulo que la consola enchufa en su motor de rondas.
 //
 // La consola pone el armazón: modos, niveles, bucle de la partida, marcador,
 // resultados y progreso. Un juego pone cinco cosas y solo cinco:
@@ -36,8 +36,12 @@ export const MINIMO_LIBRE = 2;
 // juego. El porqué entero está en docs/fases.md, Fase 4.
 
 export const juego = {
+  // El `id` y el `nombre` no dicen lo mismo y no se cambian juntos. El id es el
+  // que viaja en las rutas —`#/intervalos/jugar?...`, o sea los QR de aula y los
+  // marcadores— y en la dirección pública, así que **está congelado**. El nombre
+  // es la cara y se cambió el 08/08/2026: ver CLAUDE.md.
   id: 'intervalos',
-  nombre: 'Intervalos',
+  nombre: 'Intervalia',
   tema: 'Tema 4',
   resumen: 'Suena un intervalo melódico y hay que nombrarlo con su abreviatura. '
     + 'Es la tarea del examen, con el mismo timbre y la misma nomenclatura.',
@@ -50,7 +54,7 @@ export const juego = {
    *
    * Vive aquí y no en `pantallas/niveles.js` desde el 03/08/2026. Aquella
    * importaba esta constante del módulo del Juego 1, o sea que una pantalla
-   * compartida dependía de un juego concreto: una compilación sin Intervalos
+   * compartida dependía de un juego concreto: una compilación sin Intervalia
    * dentro no habría llegado ni a cargar.
    */
   minimoElegidos: MINIMO_LIBRE,

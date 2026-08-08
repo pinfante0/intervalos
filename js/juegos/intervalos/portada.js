@@ -1,4 +1,4 @@
-// La portada del Juego 1: la pantalla con la que se abre Intervalos.
+// La portada del Juego 1: la pantalla con la que se abre Intervalia.
 //
 // Es **la sexta cosa que un juego aporta, y la única opcional**. Las otras
 // cinco —configurar una ronda, generar el ítem, la pantalla de respuesta, la
