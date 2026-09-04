@@ -5,28 +5,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="color-scheme" content="light dark">
 <meta name="description" content="Intervalia. Entrenamiento auditivo de intervalos melódicos. Universidad de Jaén.">
-<!--
-  El nombre del juego, en el título y en la descripción. Decía «Educación musical
-  — juegos», en plural, porque esto era una consola con un menú de juegos dentro;
-  desde el 07/08/2026 una compilación lleva **un** juego y la pestaña es lo que se
-  lee en el móvil.
 
-  Es el único sitio fuera de `js/juegos/intervalos/juego.js` donde está escrito
-  ese nombre, y no se puede evitar: el navegador pinta la pestaña antes de que se
-  ejecute una línea de JavaScript. Que no se separen lo comprueba
-  `montar_publicable.py`, que se planta si el título no nombra al juego que monta.
--->
 <title>Intervalia — Educación musical</title>
 <link rel="stylesheet" href="css/consola.css">
 </head>
 <body>
 
-<!--
-  El juego entero se pinta desde JavaScript en este único hueco. No hay
-  servidor: son archivos estáticos, así que la navegación va por el fragmento de
-  la dirección (#/intervalos/niveles) y el botón de atrás del navegador
-  funciona. Ver docs/consola.md.
--->
+
 <main id="pantalla" tabindex="-1"></main>
 
 <noscript>

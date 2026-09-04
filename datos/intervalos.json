@@ -1,11 +1,22 @@
 {
   "version": 1,
-  "descripcion": "Los doce intervalos del juego. Tabla de referencia: no crece. Ver docs/contrato_datos.md",
   "cualidades": {
-    "m": { "nombre": "menor", "color": "#3E6FA8" },
-    "M": { "nombre": "Mayor", "color": "#C1762A" },
-    "J": { "nombre": "justo", "color": "#2E7D6B" },
-    "A": { "nombre": "aumentado", "color": "#7A4A8C" }
+    "m": {
+      "nombre": "menor",
+      "color": "#3E6FA8"
+    },
+    "M": {
+      "nombre": "Mayor",
+      "color": "#C1762A"
+    },
+    "J": {
+      "nombre": "justo",
+      "color": "#2E7D6B"
+    },
+    "A": {
+      "nombre": "aumentado",
+      "color": "#7A4A8C"
+    }
   },
   "intervalos": [
     {
@@ -15,7 +26,9 @@
       "grado": 2,
       "semitonos": 1,
       "cualidad": "m",
-      "respuestas_validas": ["2m"],
+      "respuestas_validas": [
+        "2m"
+      ],
       "orden": 1
     },
     {
@@ -25,7 +38,9 @@
       "grado": 2,
       "semitonos": 2,
       "cualidad": "M",
-      "respuestas_validas": ["2M"],
+      "respuestas_validas": [
+        "2M"
+      ],
       "orden": 2
     },
     {
@@ -35,7 +50,9 @@
       "grado": 3,
       "semitonos": 3,
       "cualidad": "m",
-      "respuestas_validas": ["3m"],
+      "respuestas_validas": [
+        "3m"
+      ],
       "orden": 3
     },
     {
@@ -45,7 +62,9 @@
       "grado": 3,
       "semitonos": 4,
       "cualidad": "M",
-      "respuestas_validas": ["3M"],
+      "respuestas_validas": [
+        "3M"
+      ],
       "orden": 4
     },
     {
@@ -55,7 +74,9 @@
       "grado": 4,
       "semitonos": 5,
       "cualidad": "J",
-      "respuestas_validas": ["4J"],
+      "respuestas_validas": [
+        "4J"
+      ],
       "orden": 5
     },
     {
@@ -65,7 +86,10 @@
       "grado": 4,
       "semitonos": 6,
       "cualidad": "A",
-      "respuestas_validas": ["4A", "5d"],
+      "respuestas_validas": [
+        "4A",
+        "5d"
+      ],
       "orden": 6,
       "nota": "Las dos escrituras suenan igual y el estímulo es auditivo: ambas respuestas son correctas."
     },
@@ -76,7 +100,9 @@
       "grado": 5,
       "semitonos": 7,
       "cualidad": "J",
-      "respuestas_validas": ["5J"],
+      "respuestas_validas": [
+        "5J"
+      ],
       "orden": 7
     },
     {
@@ -86,7 +112,9 @@
       "grado": 6,
       "semitonos": 8,
       "cualidad": "m",
-      "respuestas_validas": ["6m"],
+      "respuestas_validas": [
+        "6m"
+      ],
       "orden": 8
     },
     {
@@ -96,7 +124,9 @@
       "grado": 6,
       "semitonos": 9,
       "cualidad": "M",
-      "respuestas_validas": ["6M"],
+      "respuestas_validas": [
+        "6M"
+      ],
       "orden": 9
     },
     {
@@ -106,7 +136,9 @@
       "grado": 7,
       "semitonos": 10,
       "cualidad": "m",
-      "respuestas_validas": ["7m"],
+      "respuestas_validas": [
+        "7m"
+      ],
       "orden": 10
     },
     {
@@ -116,7 +148,9 @@
       "grado": 7,
       "semitonos": 11,
       "cualidad": "M",
-      "respuestas_validas": ["7M"],
+      "respuestas_validas": [
+        "7M"
+      ],
       "orden": 11
     },
     {
@@ -126,7 +160,9 @@
       "grado": 8,
       "semitonos": 12,
       "cualidad": "J",
-      "respuestas_validas": ["8J"],
+      "respuestas_validas": [
+        "8J"
+      ],
       "orden": 12
     }
   ]

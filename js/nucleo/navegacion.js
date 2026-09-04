@@ -1,14 +1,14 @@
-// La navegación de la consola: rutas en el fragmento de la dirección.
-//
-// Todo va detrás de la almohadilla —`#/intervalos/nivel/3`— porque el juego se
-// publica como archivos estáticos y no hay servidor que reescriba rutas. A
-// cambio salen gratis dos cosas que en un aula se usan: el botón de atrás del
-// navegador funciona, y una pantalla concreta se puede dejar enlazada o en un
-// código QR.
-//
-// Una pantalla es una función que devuelve un nodo. Si además necesita limpiar
-// algo al marcharse —callar el piano, parar un temporizador— devuelve
-// `{ nodo, alSalir }`.
+
+
+
+
+
+
+
+
+
+
+
 
 import { vaciar } from './dom.js';
 
@@ -22,18 +22,18 @@ export class Navegacion {
     this.#contenedor = contenedor;
   }
 
-  /**
-   * Registra una pantalla.
-   *
-   *     nav.ruta('/intervalos/nivel/:id', ({ params }) => pantallaNivel(+params.id));
-   */
+
+
+
+
+
   ruta(patron, pantalla) {
     const partes = patron.split('/').filter(Boolean);
     this.#rutas.push({ patron, partes, pantalla });
     return this;
   }
 
-  /** La ruta que se está mostrando, sin la almohadilla. */
+
   get actual() {
     return this.#actual;
   }
@@ -71,9 +71,9 @@ export class Navegacion {
   }
 
   async #pintar() {
-    // Lo primero, dejar salir a la pantalla anterior. Si esto no se hiciera, un
-    // toque en «atrás» durante una partida dejaría el piano sonando y el
-    // temporizador del contrarreloj corriendo por detrás.
+
+
+
     try {
       this.#alSalir?.();
     } catch (fallo) {
@@ -111,8 +111,8 @@ export class Navegacion {
     vaciar(this.#contenedor);
     if (nodo) this.#contenedor.append(nodo);
     scrollTo(0, 0);
-    // El foco al contenedor: sin esto, quien navega con teclado o con lector de
-    // pantalla se queda donde estaba y no se entera de que ha cambiado todo.
+
+
     this.#contenedor.focus({ preventScroll: true });
   }
 }

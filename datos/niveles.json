@@ -1,15 +1,24 @@
 {
   "version": 1,
-  "descripcion": "Progresión de siete niveles del juego de intervalos. Ver docs/contrato_datos.md",
   "juego": "intervalos",
   "niveles": [
     {
       "id": 1,
       "nombre": "Justos y octava",
       "objetivo": "Los intervalos de sonoridad hueca, los más fáciles de aislar.",
-      "intervalos": ["4J", "5J", "8J"],
-      "direcciones": ["asc", "desc"],
-      "registro": { "min": 60, "max": 84 },
+      "intervalos": [
+        "4J",
+        "5J",
+        "8J"
+      ],
+      "direcciones": [
+        "asc",
+        "desc"
+      ],
+      "registro": {
+        "min": 60,
+        "max": 84
+      },
       "items": 10,
       "aciertos_para_superar": 8,
       "nota_didactica": "Los tres suenan huecos, sin el color de mayor y menor, y por eso entran primero. La 4J y la 5J son inversiones una de otra, así que confundirlas al principio es lo esperable."
@@ -18,9 +27,20 @@
       "id": 2,
       "nombre": "Terceras y sextas",
       "objetivo": "La pareja mayor/menor: el mismo grado con una cualidad distinta.",
-      "intervalos": ["3m", "3M", "6m", "6M"],
-      "direcciones": ["asc", "desc"],
-      "registro": { "min": 60, "max": 84 },
+      "intervalos": [
+        "3m",
+        "3M",
+        "6m",
+        "6M"
+      ],
+      "direcciones": [
+        "asc",
+        "desc"
+      ],
+      "registro": {
+        "min": 60,
+        "max": 84
+      },
       "items": 10,
       "aciertos_para_superar": 8,
       "nota_didactica": "Terceras y sextas son inversiones una de otra: la 3m invertida da 6M."
@@ -29,9 +49,20 @@
       "id": 3,
       "nombre": "Segundas y séptimas",
       "objetivo": "Los intervalos de nota vecina y sus inversiones, las más difíciles de medir.",
-      "intervalos": ["2m", "2M", "7m", "7M"],
-      "direcciones": ["asc", "desc"],
-      "registro": { "min": 55, "max": 86 },
+      "intervalos": [
+        "2m",
+        "2M",
+        "7m",
+        "7M"
+      ],
+      "direcciones": [
+        "asc",
+        "desc"
+      ],
+      "registro": {
+        "min": 55,
+        "max": 86
+      },
       "items": 10,
       "aciertos_para_superar": 8,
       "nota_didactica": "Las séptimas son poco comunes al principio de una canción, así que se reconocen por descomposición: la 7M es una octava a la que le falta un semitono; la 7m, una octava a la que le falta un tono."
@@ -40,9 +71,21 @@
       "id": 4,
       "nombre": "El tritono",
       "objetivo": "Aislar el tritono y no confundirlo con la 4J ni con la 5J.",
-      "intervalos": ["4J", "4A", "5J", "3M", "3m"],
-      "direcciones": ["asc", "desc"],
-      "registro": { "min": 55, "max": 86 },
+      "intervalos": [
+        "4J",
+        "4A",
+        "5J",
+        "3M",
+        "3m"
+      ],
+      "direcciones": [
+        "asc",
+        "desc"
+      ],
+      "registro": {
+        "min": 55,
+        "max": 86
+      },
       "items": 10,
       "aciertos_para_superar": 8,
       "nota_didactica": "El tritono ha sido conocido durante siglos como el «Diabolus in musica». Parte la octava en dos mitades iguales y suena tenso e inestable."
@@ -51,9 +94,27 @@
       "id": 5,
       "nombre": "Los doce, ascendentes",
       "objetivo": "Mezclar los doce intervalos en la dirección más practicada.",
-      "intervalos": ["2m", "2M", "3m", "3M", "4J", "4A", "5J", "6m", "6M", "7m", "7M", "8J"],
-      "direcciones": ["asc"],
-      "registro": { "min": 48, "max": 90 },
+      "intervalos": [
+        "2m",
+        "2M",
+        "3m",
+        "3M",
+        "4J",
+        "4A",
+        "5J",
+        "6m",
+        "6M",
+        "7m",
+        "7M",
+        "8J"
+      ],
+      "direcciones": [
+        "asc"
+      ],
+      "registro": {
+        "min": 48,
+        "max": 90
+      },
       "items": 10,
       "aciertos_para_superar": 8,
       "nota_didactica": null
@@ -62,9 +123,27 @@
       "id": 6,
       "nombre": "Los doce, descendentes",
       "objetivo": "La dirección donde más se falla, ya con los doce mezclados.",
-      "intervalos": ["2m", "2M", "3m", "3M", "4J", "4A", "5J", "6m", "6M", "7m", "7M", "8J"],
-      "direcciones": ["desc"],
-      "registro": { "min": 48, "max": 90 },
+      "intervalos": [
+        "2m",
+        "2M",
+        "3m",
+        "3M",
+        "4J",
+        "4A",
+        "5J",
+        "6m",
+        "6M",
+        "7m",
+        "7M",
+        "8J"
+      ],
+      "direcciones": [
+        "desc"
+      ],
+      "registro": {
+        "min": 48,
+        "max": 90
+      },
       "items": 10,
       "aciertos_para_superar": 8,
       "nota_didactica": "Casi todos los entrenadores posponen los descendentes y las canciones de referencia habituales son ascendentes. De ahí que este nivel cueste más de lo que su posición sugiere."
@@ -73,9 +152,28 @@
       "id": 7,
       "nombre": "Formato de examen",
       "objetivo": "Los doce intervalos, ambas direcciones, nota de partida aleatoria. La tarea criterio.",
-      "intervalos": ["2m", "2M", "3m", "3M", "4J", "4A", "5J", "6m", "6M", "7m", "7M", "8J"],
-      "direcciones": ["asc", "desc"],
-      "registro": { "min": 48, "max": 90 },
+      "intervalos": [
+        "2m",
+        "2M",
+        "3m",
+        "3M",
+        "4J",
+        "4A",
+        "5J",
+        "6m",
+        "6M",
+        "7m",
+        "7M",
+        "8J"
+      ],
+      "direcciones": [
+        "asc",
+        "desc"
+      ],
+      "registro": {
+        "min": 48,
+        "max": 90
+      },
       "items": 10,
       "aciertos_para_superar": 8,
       "nota_didactica": null

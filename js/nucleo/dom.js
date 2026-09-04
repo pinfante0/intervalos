@@ -1,19 +1,19 @@
-// Cuatro ayudas para construir pantallas sin plantillas ni innerHTML.
-//
-// No es un framework y no quiere serlo: la consola son seis pantallas y un
-// bucle de juego. Lo único que hacía falta era dejar de escribir
-// createElement/appendChild cuatro veces por botón.
-//
-// Nada de esto interpreta cadenas como HTML. El texto entra siempre por
-// textContent, que es lo que hace imposible que un título de canción con un
-// símbolo raro rompa la página.
 
-/**
- * Un elemento. El nombre admite clases al estilo CSS:
- *
- *     el('button.principal', { onclick: jugar }, 'Empezar')
- *     el('p.nota', {}, 'Sin alumnos delante')
- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 export function el(nombre, props = {}, ...hijos) {
   const [etiqueta, ...clases] = nombre.split('.');
   const nodo = document.createElement(etiqueta || 'div');
@@ -33,11 +33,11 @@ export function el(nombre, props = {}, ...hijos) {
   return nodo;
 }
 
-/**
- * Estilos en línea. Las propiedades personalizadas —`--color`, que es como
- * llega aquí el color de la cualidad desde intervalos.json— hay que ponerlas
- * con setProperty: asignarlas sobre `style` no hace nada y falla en silencio.
- */
+
+
+
+
+
 function estilar(nodo, estilos) {
   for (const [propiedad, valor] of Object.entries(estilos)) {
     if (propiedad.startsWith('--')) nodo.style.setProperty(propiedad, valor);
@@ -45,7 +45,7 @@ function estilar(nodo, estilos) {
   }
 }
 
-/** Mete hijos en un nodo: cadenas, números, nodos o listas de todo eso. */
+
 export function añadir(nodo, hijos) {
   for (const hijo of hijos.flat(Infinity)) {
     if (hijo === null || hijo === undefined || hijo === false) continue;
@@ -54,22 +54,22 @@ export function añadir(nodo, hijos) {
   return nodo;
 }
 
-/** Deja un nodo vacío. */
+
 export function vaciar(nodo) {
   while (nodo.firstChild) nodo.removeChild(nodo.firstChild);
   return nodo;
 }
 
-/** Segundos en «1:04», para el reloj del contrarreloj. */
+
 export function reloj(ms) {
   const total = Math.max(0, Math.ceil(ms / 1000));
   return `${Math.floor(total / 60)}:${String(total % 60).padStart(2, '0')}`;
 }
 
-/** Milisegundos en «2,4 s». Con coma decimal, que esto está en español. */
+
 export function segundos(ms, decimales = 1) {
   return `${(ms / 1000).toFixed(decimales).replace('.', ',')} s`;
 }
 
-/** Una promesa que se cumple sola. Para las pausas entre ítems. */
+
 export const esperar = (ms) => new Promise((listo) => setTimeout(listo, ms));

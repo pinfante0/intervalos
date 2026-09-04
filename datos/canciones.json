@@ -1,6 +1,5 @@
 {
   "version": 1,
-  "descripcion": "Banco de canciones de referencia. Cada fragmento empieza en la primera nota del salto. Ver docs/contrato_datos.md",
   "aviso": "Banco completo el 03/08/2026, al cerrar la Fase 5, y con 28 entradas desde el 07/08/2026: las 28 escuchadas al piano. Cubre 18 de los 24 pares en la edición publicable y 21 en la de aula; el resto se resuelve por técnica desde la nota didáctica de su nivel. Ninguna entrada vale hasta escucharla, y eso lo pone marcar_verificadas.py.",
   "licencias": {
     "dominio_publico": {
